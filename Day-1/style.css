@@ -7,7 +7,6 @@
 
 .container{
     background: #f5f6ff;
-    width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -40,32 +39,39 @@
 }
 
 .card{
-    width: 480px;
-    text-align: center;
+    /* text-align: center; */
     background: #FFF;
     border-radius: 16px;
     z-index: 1;
     position: fixed;
     box-shadow: 0px 10px 24px 0px rgba(9, 17, 89, 0.10);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 
 }
 
 .title{
-    display: flex;
+    /* display: flex;
     align-items: flex-start;
-    justify-content: flex-start;
-    margin-top:30px ;
-    margin-left: 25px;
-    font-size: 14px;
-  
+    justify-content: flex-start; */
+    font-size: 14px; 
 }
 .mail{
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    text-align: start;
+    /* align-items: flex-start; */
+    /* justify-content: flex-start; */
+    /* text-align: start; */
+    gap: 10px;
     
     
+}
+
+.mail-img{
+    padding: 10px;
+    background-color: #FFE9F2;
+    border-radius: 10px;
 }
 
 .mail-box{
@@ -81,52 +87,66 @@
 }
 
 .mail-content{
-    display: block;
-    margin-top: 25px;
+   /* display: flex;
+   flex-direction: column; */
 
 }
 
 .mail-content h6{
    font-weight: 800;
    font-size: 10px;
-   margin-bottom: 5px ;
+   /* margin-bottom: 5px ; */
 }
-.mail-content p{
+.mail-content {
    font-weight: 300;
    font-size: 12px;
-   margin-top: 8px;
-   margin-bottom: 5px ;
+   /* margin-top: 8px;
+   margin-bottom: 5px ; */
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
 }
 
-.btn{
+.btn-container{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
-    margin-bottom: 30px;
+    
 }
 
-.twitter-btn{
-    width: 110px;
-    height: 40px;
+.btn{
+    /* width: 110px;
+    height: 40px; */
     background: #fff;
-    color: #158ABB;
+    /* color: #158ABB; */
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 25px;
     border: 1px solid #158ABB;
     cursor: pointer;
+    padding: 5px 15px;
 }
-.twitter-btn img{
+.btn img{
     width: 30px;
+    height: 30px;
     padding: 3px;
+    object-fit: contain;
+}
+.twt{
+    color: #158ABB;
+    border: 1px solid #158ABB;
 }
 
-.facebook-btn{
-    width: 110px;
-    height: 40px;
-    background: #fff;
+.fb{
+    color: #205195;
+    border: 1px solid #205195;
+}
+/* .btn{ */
+    /* width: 110px;
+    height: 40px; */
+    /* background: #fff;
     color: #205195;
     display: flex;
     align-items: center;
@@ -134,10 +154,11 @@
     border-radius: 25px;
     border: 1px solid #205195;;
     cursor: pointer;
-}
+    padding: 5px 15px;
+} */
 
-.facebook-btn img{
+/* .facebook-btn img{
     width: 20px;
     padding: 3px;
-}
+} */
 
