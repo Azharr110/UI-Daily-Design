@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+}
+
+.container{
+    background: #f5f6ff;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    width: 320px;
+    height: 170px;
+    border-radius: 50px;
+    position: relative;
+    background: #E9EBFF;
+    top: -100px;
+    left: -200px;
+}
+.bell-icon{
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+    background: #0C0E41;
+    position: relative;
+    top: -160px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bell-icon img{
+    width: 30px;
+}
+
+.card{
+    width: 480px;
+    text-align: center;
+    background: #FFF;
+    border-radius: 16px;
+    z-index: 1;
+    position: fixed;
+    box-shadow: 0px 10px 24px 0px rgba(9, 17, 89, 0.10);
+
+}
+
+.title{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top:30px ;
+    margin-left: 25px;
+    font-size: 14px;
+  
+}
+.mail{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: start;
+    
+    
+}
+
+.mail-box{
+    width: 70px;
+    height: 70px;
+    /* flex-shrink: 0; */
+    border-radius: 8px;
+    background: #FFE9F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.mail-content{
+    display: block;
+    margin-top: 25px;
+
+}
+
+.mail-content h6{
+   font-weight: 800;
+   font-size: 10px;
+   margin-bottom: 5px ;
+}
+.mail-content p{
+   font-weight: 300;
+   font-size: 12px;
+   margin-top: 8px;
+   margin-bottom: 5px ;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.twitter-btn{
+    width: 110px;
+    height: 40px;
+    background: #fff;
+    color: #158ABB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    border: 1px solid #158ABB;
+    cursor: pointer;
+}
+.twitter-btn img{
+    width: 30px;
+    padding: 3px;
+}
+
+.facebook-btn{
+    width: 110px;
+    height: 40px;
+    background: #fff;
+    color: #205195;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    border: 1px solid #205195;;
+    cursor: pointer;
+}
+
+.facebook-btn img{
+    width: 20px;
+    padding: 3px;
+}
+
