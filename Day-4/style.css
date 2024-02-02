@@ -1,175 +1,138 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "poppins" ,  sans-serif;
-    text-decoration: none;
-    list-style: none;
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
 }
 
-.container{
-    background: #E6EAF8;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.container {
+  background: #e6eaf8;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.dashboard{
-    background: #fff;
-    padding: 70px;
-    border-radius: 15px;
-    /* width: 90%; */
+.dashboard {
+  background: #fff;
+  padding: 70px;
+  border-radius: 15px;
+  /* width: 90%; */
 }
-
-
-.title-user{
-    font-family:  "Merriweather", serif;
+.dashboard .title-user {
+  font-family: "Merriweather", serif;
 }
-
-.navbar{
-    /* display: flex;
-    align-items: center;
-    justify-content: space-between; */
-
-    margin-top: 20px;
+.dashboard .navbar {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+  margin-top: 20px;
 }
-
-.navdiv{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
-    
-    /* width: 100%; */
+.dashboard .navbar .navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* width: 100%; */
 }
-
-li{
-    display: inline-block;
-    margin-left: 30px;
+.dashboard .navbar .navdiv .search {
+  /* gap: 20px; */
+  /* position: relative; */
+  margin-bottom: 40px;
 }
-li a{
-    color: #151B32;
-    font-size: 13px;
-    font-style: normal;
-    margin-right: 20px;
-
-    box-shadow: 0 0 0 0px #849FFF;
-    transition: box-shadow 0.5s;
-}
-
-li a:hover{
-    box-shadow: 0 0 0 12px #849FFF;
-    background-color: #849FFF;
-    color: #fff;
-    border-radius: 2px;
-}
-
-
-
-.search{
-    /* gap: 20px; */
-    /* position: relative; */
-    margin-bottom: 40px;
-}
-.search input{
+.dashboard .navbar .navdiv .search input {
   padding: 13px 30px;
   position: absolute;
   font-size: 12px;
-  border: 1px solid #BFC8E5;
+  border: 1px solid #bfc8e5;
   border-radius: 5px;
   /* margin-right: 70px; */
   outline: none;
 }
-
-.search img{
-    position: absolute;
-    width: 25px;
-    /* height: 25px; */
-    padding-top: 11px;
-    padding-left: 7px;
+.dashboard .navbar .navdiv .search img {
+  position: absolute;
+  width: 25px;
+  /* height: 25px; */
+  padding-top: 11px;
+  padding-left: 7px;
 }
-
-
-.users{
-    /* display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
-    gap: 10px; */
-    margin-top: 20px;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 10px;
+.dashboard .navbar .navdiv li {
+  display: inline-block;
+  margin-left: 30px;
 }
-/* .users2{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 10px;
-} */
-
-
-.user-content{
-    display: flex;
-   
-    box-shadow: 0 0 0 0px rgba(218, 224, 249, 0.70);
-    /* border: 1px solid rgba(218, 224, 249, 0.70); */
-    
-    border-radius: 15px;
-    width: 282px;
-    height: 150px;
-    padding: 20px 50px 50px 20px;
-    border: 1px solid #1eb34100;
-    transition: box-shadow 0.5s;
+.dashboard .navbar .navdiv li a {
+  color: #151b32;
+  font-size: 13px;
+  font-style: normal;
+  margin-right: 20px;
+  box-shadow: 0 0 0 0px #849fff;
+  transition: box-shadow 0.5s;
 }
-
-.user-content:hover{
-    box-shadow: 0px 8px 23px 0px rgba(218, 224, 249, 0.70);
-    border: 1px solid #BFC8E5;
-
+.dashboard .navbar .navdiv li a:hover {
+  box-shadow: 0 0 0 12px #849fff;
+  background-color: #849fff;
+  color: #fff;
+  border-radius: 2px;
 }
-
-
-
-.user-image img{
-    width: 60px;
-    height: 60px;
-    flex-shrink: 0;
-    margin-right: 15px;
-    object-fit: cover;
+.dashboard .users {
+  /* display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  gap: 10px; */
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
 }
-
-.userName h4{
-   font-size: 13px;
-   margin-bottom: 5px;
-    font-family:  "Merriweather", serif;
+.dashboard .users .user-content {
+  display: flex;
+  box-shadow: 0 0 0 0px rgba(218, 224, 249, 0.7);
+  /* border: 1px solid rgba(218, 224, 249, 0.70); */
+  border-radius: 15px;
+  width: 282px;
+  height: 150px;
+  padding: 20px 50px 50px 20px;
+  border: 1px solid rgba(30, 179, 65, 0);
+  transition: box-shadow 0.5s;
 }
-
-.userName p{
-   font-size: 9px;
-
-   font-weight: 600;
-   margin-bottom: 5px;
+.dashboard .users .user-content:hover {
+  box-shadow: 0px 8px 23px 0px rgba(218, 224, 249, 0.7);
+  border: 1px solid #bfc8e5;
 }
-
-.userbtn{
-    display: flex;
-    flex-wrap: wrap;
-    /* grid-template-columns: repeat(3, 1fr); */
-    gap: 2px;
-    margin-top: 12px;
+.dashboard .users .user-content .user-image img {
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  margin-right: 15px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
-
-.userName button{
-   font-size: 9px;
-   font-weight: 600;
-   margin-bottom: 5px;
-   color: #516FD4;
-   padding: 2px 6px;
-   background: #fff;
-   border: 1px solid #BFC8E5;
-   border-radius: 8px;
-  
-   
+.dashboard .users .user-content .userName h4 {
+  font-size: 13px;
+  margin-bottom: 5px;
+  font-family: "Merriweather", serif;
 }
+.dashboard .users .user-content .userName p {
+  font-size: 9px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.dashboard .users .user-content .userName .userbtn {
+  display: flex;
+  flex-wrap: wrap;
+  /* grid-template-columns: repeat(3, 1fr); */
+  gap: 2px;
+  margin-top: 12px;
+}
+.dashboard .users .user-content .userName .userbtn button {
+  font-size: 9px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #516fd4;
+  padding: 2px 6px;
+  background: #fff;
+  border: 1px solid #bfc8e5;
+  border-radius: 8px;
+}/*# sourceMappingURL=style.css.map */
