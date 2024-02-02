@@ -19,7 +19,7 @@
 
 .dashboard{
     background: #fff;
-    padding: 90px;
+    padding: 70px;
     border-radius: 15px;
     /* width: 90%; */
 }
@@ -43,6 +43,7 @@ title h2{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
     
     /* width: 100%; */
 }
@@ -72,36 +73,61 @@ li a:hover{
 
 .search{
     /* gap: 20px; */
+    /* position: relative; */
+    margin-bottom: 40px;
 }
 .search input{
-  padding: 10px 30px;
+  padding: 13px 30px;
+  position: absolute;
   font-size: 12px;
   border: 1px solid #BFC8E5;
   border-radius: 5px;
   margin-right: 70px;
+  outline: none;
+}
+
+.search img{
+    position: absolute;
+    width: 25px;
+    /* height: 25px; */
+    padding-top: 11px;
+    padding-left: 7px;
 }
 
 
 .users{
     display: flex;
     justify-content: space-around;
+    margin-top: 50px;
 }
+.users2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
 
 .user-content{
     display: flex;
-    margin-top: 50px;
+   
     box-shadow: 0 0 0 0px rgba(218, 224, 249, 0.70);
+    /* border: 1px solid rgba(218, 224, 249, 0.70); */
+    
     border-radius: 15px;
-    /* width: 190px;
-    height: 120px; */
+    width: 280px;
+    height: 150px;
     padding: 20px 50px 50px 20px;
+    
     transition: box-shadow 0.5s;
 }
 
 .user-content:hover{
     box-shadow: 0px 8px 23px 0px rgba(218, 224, 249, 0.70);
+    border: 1px solid #BFC8E5;
 
 }
+
+
 
 .user-image img{
     width: 60px;
@@ -122,16 +148,24 @@ li a:hover{
    margin-bottom: 5px;
 }
 
+.userbtn{
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: repeat(3, 1fr); */
+    gap: 2px;
+    margin-top: 12px;
+}
+
 .userName button{
    font-size: 9px;
    font-weight: 600;
    margin-bottom: 5px;
-   color: #849FFF;
+   color: #516FD4;
    padding: 2px 6px;
    background: #fff;
    border: 1px solid #BFC8E5;
    border-radius: 8px;
-   margin-top: 12px;
+  
    
 }
 
