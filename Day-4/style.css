@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins" ,  sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    background: #E6EAF8;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboard{
+    background: #fff;
+    padding: 90px;
+    border-radius: 15px;
+    /* width: 90%; */
+}
+
+.title{
+    font-family:  "Merriweather", serif;
+}
+title h2{
+    font-family:  "Merriweather", serif;
+}
+
+.navbar{
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+
+    margin-top: 20px;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    /* width: 100%; */
+}
+
+li{
+    display: inline-block;
+    margin-left: 30px;
+}
+li a{
+    color: #151B32;
+    font-size: 13px;
+    font-style: normal;
+    margin-right: 20px;
+
+    box-shadow: 0 0 0 0px #849FFF;
+    transition: box-shadow 0.5s;
+}
+
+li a:hover{
+    box-shadow: 0 0 0 12px #849FFF;
+    background-color: #849FFF;
+    color: #fff;
+    border-radius: 2px;
+}
+
+
+
+.search{
+    /* gap: 20px; */
+}
+.search input{
+  padding: 10px 30px;
+  font-size: 12px;
+  border: 1px solid #BFC8E5;
+  border-radius: 5px;
+  margin-right: 70px;
+}
+
+
+.users{
+    display: flex;
+    justify-content: space-around;
+}
+
+.user-content{
+    display: flex;
+    margin-top: 50px;
+    box-shadow: 0 0 0 0px rgba(218, 224, 249, 0.70);
+    border-radius: 15px;
+    /* width: 190px;
+    height: 120px; */
+    padding: 20px 50px 50px 20px;
+    transition: box-shadow 0.5s;
+}
+
+.user-content:hover{
+    box-shadow: 0px 8px 23px 0px rgba(218, 224, 249, 0.70);
+
+}
+
+.user-image img{
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    margin-right: 15px;
+    object-fit: cover;
+}
+
+.userName h4{
+   font-size: 13px;
+   margin-bottom: 5px;
+}
+.userName p{
+   font-size: 9px;
+
+   font-weight: 600;
+   margin-bottom: 5px;
+}
+
+.userName button{
+   font-size: 9px;
+   font-weight: 600;
+   margin-bottom: 5px;
+   color: #849FFF;
+   padding: 2px 6px;
+   background: #fff;
+   border: 1px solid #BFC8E5;
+   border-radius: 8px;
+   margin-top: 12px;
+   
+}
+
+.userBtn{
+   /* place-content: center;
+   padding: 3px 8px; */
+}
