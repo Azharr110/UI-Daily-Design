@@ -16,25 +16,27 @@
   justify-content: center;
 }
 
+.outer-box{
+  width: 210px;
+  height: 820px;
+  background: #EE4D38;
+  border-radius: 20px;
+  position: relative;
+  top: 0px;
+  left: 160px;
+}
+
 .dashboard {
   background: #FFFFFF;
   /* padding: 40px; */
   border-radius: 26px;
+  box-shadow: 0px 49px 32px -19px rgba(56, 56, 150, 0.15);
+
   display: flex;
-
-
+  z-index: 1;
   
 }
 
-/* .box-detail{
-  width: 190px;
-  height: 170px;
-  background: #EE4D38;
-  border-radius: 20px;
-  position: relative;
-  top: -130px;
-  left: 700px;
-} */
 
 .sidebar{
   /* display: grid;
