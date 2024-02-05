@@ -215,6 +215,50 @@ color: #1A194D;
   margin-left: 90px;
 }
 
+.box-detail{
+  width: 190px;
+  height: 170px;
+  background: #EE4D38;
+  border-radius: 20px;
+  margin-right: 40px;
+  margin-top: 150px;
+}
+
+.box-content{
+  padding: 30px;
+}
+
+.box-data{
+  color: #fff;
+}
+.box-data p{
+  font-size: 11px;
+}
+.box-data h4{
+  font-size: 15px;
+  margin-top: 13px;
+}
+.box-data h6{
+  font-size: 9px;
+  margin-top: 9px;
+}
+
+.box-btn{
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box-btn button{
+   background: #EE4D38;
+   color: #FFFFFF;
+   font-size: 11px;
+   font-weight: 100;
+   width: 130px;
+   height: 30px;
+   border: 1px solid rgba(255, 255, 255, 0.50);
+   border-radius: 8px;
+}
 
 
 
