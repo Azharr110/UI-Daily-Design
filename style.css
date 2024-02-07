@@ -1,8 +1,16 @@
+
+.main{
+  display: grid;
+ grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
 .cards {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  
+  justify-content: space-evenly;
   align-content: center;
 }
 .card {
@@ -17,7 +25,13 @@
   border: 1px solid #bfc8e5;
   background: #fbfcff;
 }
-.card:hover {
+
+.card img{
+  width: 400px;
+  height: 250px;  
+  object-fit: cover;
+}
+ .card:hover {
   box-shadow: 0px 8px 23px 0px rgba(218, 224, 249, 0.7);
   cursor: pointer;
 }
