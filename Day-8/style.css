@@ -212,3 +212,129 @@ img{
 }
 
 
+@media screen and (min-width: 481px){
+  
+    .list-item{
+        /* display: none; */
+    }
+   
+    .title h1{
+ 
+        font-size: 45px;
+        /* width: 100%; */
+        /* flex-wrap: wrap; */
+    }
+    
+    .title h3{
+        color: #14203E;
+        font-size: 16px;
+        margin-top: 20px;
+        /* flex-wrap: wrap; */
+    }
+
+    .center-btn button{
+        padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+       
+    }
+
+    .line-left{
+        width: 120px;
+        background: #DDE4ED;
+        margin-right: 10px;
+    }
+    .line-right{
+        width: 120px;
+        background: #DDE4ED;
+        margin-left: 10px;
+       
+    }
+
+    .card-container{
+        /* display: flex; */
+
+        /* display: flex;
+        align-items: center; */
+    }
+    
+}
+
+@media screen and (min-width: 768px){
+    
+    .list-item{
+        display: inline-block;
+    }
+
+    .card{
+        width: 95%;
+        margin: 0px auto;
+    }
+
+    .card-content{
+        
+
+        display: flex;
+   
+          
+      }
+
+      .card-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+      }
+      
+  }
+ 
+ /* || LARGE */
+ 
+ @media screen and (min-width: 1024px){
+    .card-content{
+
+        display: flex;
+        /* align-items: center;
+        justify-content: center; */
+          
+      }
+
+      .card-container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+      }
+
+      .card-title p{
+        color: #14203E;
+        font-size: 15px;
+        font-weight: 700;
+        text-align: center;
+       
+    }
+    
+    .line-left{
+        width: 100px;
+        background: #DDE4ED;
+        /* margin-right: 10px; */
+    }
+    .line-right{
+        width: 100px;
+        background: #DDE4ED;
+        /* margin-left: 10px; */
+       
+    }
+     
+ }
+ 
+ /* || XL  */
+ 
+ @media screen and (min-width: 1200px){
+  
+     
+ }
