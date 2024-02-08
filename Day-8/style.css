@@ -8,7 +8,10 @@
     text-decoration: none;
     
 }
-
+img{
+    width: 100%;
+    object-fit: cover;
+}
 .container{
    
     height: 100vh;
@@ -32,10 +35,13 @@
 .logo{
     color: rgba(20, 32, 62, 0.24);
     font-family: "IBM Plex Sans";
+    font-size: 14px;
+    margin-left: 20px;
 }
 
 .list-item{
-    margin-left: 150px;
+    /* margin-left: 150px; */
+    display: none;
 }
 
 .list{
@@ -83,7 +89,126 @@
 
 
 
-.web-content{
-    background: black;
+.center-content{
+    background: #FFFCF8;
     color: aliceblue;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 100px; */
 }
+
+.title{
+    /* padding: 100px; */
+    /* display: flex; */
+    flex-direction: column;
+    /* align-items: center; */
+    text-align: center;
+    /* justify-content: center; */
+}
+.title h1{
+    color: #14203E;
+    font-size: 25px;
+    /* width: 100%; */
+    flex-wrap: wrap;
+}
+
+.title h3{
+    color: #14203E;
+    font-size: 12px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.center-btn{
+    margin-top: 40px;
+    margin-bottom: -10px;
+    
+}
+
+.center-btn button{
+  
+
+    /* padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px; */
+   
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    border: 1px solid #14203E;
+    background: #14203E;
+    font-family: "IBM Plex Sans";
+    color: #fff;
+    cursor: pointer;
+}
+
+.card{
+    background: #fff;
+    /* padding-left: 40px;
+    padding-right: 40px; */
+
+}
+
+.card-title{
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-title p{
+    color: #14203E;
+    font-size: 10px;
+    font-weight: 700;
+    text-align: center;
+   
+}
+
+.line-left{
+    width: 70px;
+    background: #DDE4ED;
+    /* margin-right: 10px; */
+}
+.line-right{
+    width: 70px;
+    background: #DDE4ED;
+    /* margin-left: 10px; */
+   
+}
+
+.card-container{
+    /* display: flex; */
+}
+
+
+.card-content{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  /* width: min(100%, 350px); */
+
+  /* display: flex; */
+  /* align-items: center;
+  justify-content: center; */
+    
+}
+
+
+.card-content h3{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card-content p{
+    font-size: 10px;
+    margin-bottom: 10px;
+    text-align: start;
+}
+
+
